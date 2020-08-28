@@ -1,0 +1,5 @@
+{
+    "require" : {
+        "vendor/altorouter/altorouter": "2.0.1"
+    }
+}
