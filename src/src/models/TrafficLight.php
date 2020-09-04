@@ -7,8 +7,10 @@ class TrafficLight
     public $green = false;
 
     public $state;
+    public $id;
 
     public function __construct($state = null){
+        $this->id = uniqid('tl');
         $this->setState($state);
     }
 

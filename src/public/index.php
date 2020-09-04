@@ -1,9 +1,27 @@
 <?php
-    require_once "../src/controller/TrafficLight.php";
+    session_start();
+    require_once "../src/models/TrafficLight.php";
 
-    $state = isset($_GET['state']) ? $_GET['state'] : 0;
+    $url = '';
 
-    $tl1 = new TrafficLight($state);
+    if(isset($_GET['url'])){
+        $url = explode('/', $_GET['url']);
+    }
+
+    if($url[0] == 'next' && empty($url[1])){
+
+    }
+
+
+    $trafficLights = isset($_SESSION['traffic-lights']) ? unserialize($_SESSION['traffic-lights']) : null;
+
+    if(empty($trafficLights)){
+        $trafficLights = array(new TrafficLight());
+    }
+
+    array_push($trafficLights, new TrafficLight());
+    var_dump($trafficLights);
+
 ?>
 
 <html>
@@ -14,7 +32,17 @@
 </head>
 
 <body>
-    <?= $tl1->build() ?>
+    <?php
+        foreach ($trafficLights as $tl){
+    ?>
+            <?= $tl->build(); ?>
+    <?php
+        }
+    ?>
 </body>
 
 </html>
+
+<?php
+    $_SESSION['traffic-lights'] = serialize($trafficLights);
+?>

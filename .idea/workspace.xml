@@ -20,15 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7d6a76ce-0f93-43e3-b34f-2ce6ed46f4c0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/src/view/components/TrafficLight.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/public/.htaccess" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/public/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/public/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/app/Router.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/app/routes.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/controller/HomeController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/view/home.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/view/layout/default.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/controller/TrafficLight.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/models/TrafficLight.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +45,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/src/controller/TrafficLight.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/src/models/TrafficLight.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -76,6 +71,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\laragon\www\PWR1\src\src\models" />
       <recent name="C:\laragon\www\PWR1\src\src\view" />
       <recent name="C:\laragon\www\PWR1\src\src\controller" />
       <recent name="C:\laragon\www\PWR1\src\src\app" />
@@ -93,6 +89,7 @@
       <workItem from="1598599028268" duration="4494000" />
       <workItem from="1599199581290" duration="3079000" />
       <workItem from="1599203098313" duration="3368000" />
+      <workItem from="1599220214498" duration="4514000" />
     </task>
     <servers />
   </component>
