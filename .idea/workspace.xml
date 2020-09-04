@@ -20,19 +20,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7d6a76ce-0f93-43e3-b34f-2ce6ed46f4c0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nginx/default.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/app/Router.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/app/routes.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/view/components/TrafficLight.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/public/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/public/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/app/Router.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/app/routes.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/controller/HomeController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/view/home.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/view/layout/default.php" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
@@ -45,6 +48,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/src/controller/TrafficLight.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -64,10 +70,15 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\laragon\www\PWR1\src\src\view" />
+      <recent name="C:\laragon\www\PWR1\src\src\controller" />
+      <recent name="C:\laragon\www\PWR1\src\src\app" />
       <recent name="C:\laragon\www\PWR1\app" />
     </key>
   </component>
@@ -79,7 +90,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1598599026692</updated>
-      <workItem from="1598599028268" duration="2098000" />
+      <workItem from="1598599028268" duration="4494000" />
+      <workItem from="1599199581290" duration="3079000" />
+      <workItem from="1599203098313" duration="3368000" />
     </task>
     <servers />
   </component>
@@ -96,8 +109,17 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="707" y="364" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1599203138891">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="707" y="364" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/1920.-433.1080.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1599203138891" />
+    <state x="463" y="176" key="SettingsEditor" timestamp="1599203220627">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="463" y="176" key="SettingsEditor/1920.-433.1080.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1599203220627" />
     <state x="887" y="244" key="run.anything.popup" timestamp="1598599744964">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

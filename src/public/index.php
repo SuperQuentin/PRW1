@@ -1,5 +1,12 @@
-<html>
+<?php
+    require_once "../src/controller/TrafficLight.php";
 
+    $state = isset($_GET['state']) ? $_GET['state'] : 0;
+
+    $tl1 = new TrafficLight($state);
+?>
+
+<html>
 <head>
     <meta charset="utf-8" />
     <title>Feu tri color</title>
@@ -7,37 +14,7 @@
 </head>
 
 <body>
-
-    <div class="trafic-light">
-
-        <?php
-            $stage = $_GET["stage"];
-
-
-            switch ($stage){
-                case "stop" :
-
-                    break;
-
-                case "ready_to_go" :
-                    break;
-
-                case "go" :
-                    break;
-
-                case "ready_to_stop":
-                    break;
-            }
-        ?>
-
-        <div class="red light"></div>
-        <div class="yellow light"></div>
-        <div class="green light"></div>
-
-        <button>=></button>
-
-    </div>
-
+    <?= $tl1->build() ?>
 </body>
 
 </html>
