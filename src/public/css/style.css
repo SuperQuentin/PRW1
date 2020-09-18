@@ -42,3 +42,9 @@ body {
 .on {
     filter: brightness(100%);
 }
+
+header{
+    display: flex;
+    height: 100px;
+    background-color: darkslategray;
+}
