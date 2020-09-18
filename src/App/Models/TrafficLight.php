@@ -70,14 +70,8 @@ class TrafficLight
         $data['red'] = $this->red;
         $data['yellow'] = $this->yellow;
         $data['green'] = $this->green;
-
-        ob_start();
-
-        require_once "../src/view/components/TrafficLight.php";
-
-        $trafficLight = ob_get_clean();
-
-        return $trafficLight;
+        
+        require_once dirname(__DIR__,2)."/assets/views/components/TrafficLight.php";
 
     }
 

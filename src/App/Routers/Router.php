@@ -1,14 +1,15 @@
 <?php
 
 namespace App\Routers;
+use App\Controllers;
 
 class Router{
-    protected $url = '';
+    protected $url = "";
 
     protected $routes = [];
 
-    public function __constructor($uri){        
-        $this->uri = $uri;
+    public function __construct($url){        
+        $this->url = $url;
     }
 
     /**
@@ -46,13 +47,17 @@ class Router{
         
         $match = [];
 
-        foreach($this->routes as $route){
+        foreach($this->routes as $route){       
             if($route->path == $this->url){
                 array_push($match,$route);
             }
         }
 
-        
+        $controllerName = '\App\Controllers\\'.$match[0]->controller;
+
+        $controller = new $controllerName();
+
+        $controller->{$match[0]->method}();
         
     }
 }

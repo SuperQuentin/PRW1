@@ -4,6 +4,10 @@ namespace App\Controllers;
 
 class Controller{
 
-    protected $layout = "../view/layouts/default.php";
+    protected $layout;
+    
+    public function __construct(){
+        $this->layout = dirname(__DIR__,2)."/assets/views/layouts/default.php";
+    }
     
 }

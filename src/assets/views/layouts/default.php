@@ -8,13 +8,14 @@
 <body>
     <header>
         <div class="brand">
-            <a href="/">The traffic lightening</a>
+            <h1><a href="/">The traffic lightening</a></h1>
         </div>
     </header>
 
+    <div class="container">
+        <?= $content ?>
+    </div>
 
-    <?= $content ?>
-    
 </body>
 
 </html>
